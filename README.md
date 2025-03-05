@@ -26,9 +26,8 @@ Welcome to **Sneakerverse**, your ultimate destination for exclusive sneakers de
 
 3. **Open index.html in your preferred web browser to explore the site locally.**
 
-
-🔗 Live Demo: sneakerverses.netlify.app
-Happy coding! 🎉
+**🔗 Live Demo: sneakerverses.netlify.app**
+**Happy coding! 🎉**
 
 
 ## 📂 Project Structure
