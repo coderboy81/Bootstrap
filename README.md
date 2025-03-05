@@ -18,8 +18,28 @@ Welcome to **Sneakerverse**, your ultimate destination for exclusive sneakers de
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/coderboy81/Bootstrap.git
-
+   git clone https://github.com/coderboy81/Sneakerverse.git
+   
+2. **Navigate to the project directory:**
+   ```bash
    cd sneakerverse
+
+3. **Open index.html in your preferred web browser to explore the site locally.**
+
+   📂 Project Structure
+   
+  ```bash
+sneakerverse/
+├── index.html        # Landing page
+├── sneakers.html     # Sneaker collection
+├── about.html        # About us
+├── contact.html      # Contact us
+├── css/
+│   └── styles.css    # CSS styles
+└── images/
+    ├── logo.png      # Website logo
+    ├── okami.png     # Okami sneaker image
+    ├── shishi.png    # Shishi sneaker image
+    └── tengu.png     # Tengu sneaker image
 
 
