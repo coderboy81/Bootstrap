@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Okami</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Front using Arimo--> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bungee&family=Bungee+Shade&family=Roboto:wght@100&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Image/favicon.ico"> <!--favicon--> 
+
+<!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+  </head>
+  <body>
+
+    <!--Web design using canva.com--> 
+    <!--Nav Bar-->
+    <!--Logo design from gemini AI-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white fs-2 ps">
+          <img src="Image/Logo.jpg" alt="Logo" width="200" height="200">
+          SNEAKERVERSE
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-5 fs-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sneakers
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="product.html">Sneaker Collection</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="Okami.html">Okami</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Shi Shi</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Tengu</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex pe-5">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel-->
+    <div id="carouselExampleSlidesOnly" class="carousel slide p-3 bg-primary" data-bs-ride="carousel">
+        <div class="carousel-inner text-center text-white bg-primary border-3 border-top border-bottom border-danger">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <p class="fs-4 fw-bold py-2 m-0">Enjoy 15% Off on the Sneakerverse App: Use APP15</p>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <p class="fs-4 fw-bold py-2 m-0">Free Standard Delivery Worldwide & 30-Day Free Returns</p>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <p class="fs-4 fw-bold py-2 m-0">New Styles On Sale: Up To 40% Off</p>
+          </div>
+        </div>
+      </div>
+
+<!-- Breadcrumb-->
+    <nav class="custom-breadcrumb" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb bg-primary fs-5 m-0 ps-5">
+            <li class="breadcrumb-item text-white"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item text-white"><a href="product.html">Sneaker</a></li>
+            <li class="breadcrumb-item active text-white" aria-current="page">Okami</li>
+        </ol>
+    </nav>
+
+<!--Product Details and prices-->
+   <div class="container my-5">
+    <article class="row g-4">
+      <!-- Product Image -->
+      <div class="col-md-6 text-center">
+        <img src="Image/okami.jpg" class="img-fluid" alt="Okami">
+      </div>
+      <!-- Product Details -->
+      <div class="col-md-6">
+        <div class="buy-item">
+          <h2 class="fw-bold">X-Serie Limited Edition</h2>
+          <p class="fs-4"><strong>ōkami(狼)</strong></p>
+          <p>
+            <span class="h4 text-danger">$140.00</span> 
+            <s class="text-muted">$200.00</s> 
+            <span class="discount">30% off</span>
+          </p>
+          <form>
+            <!-- Sizes -->
+            <p class="mb-2"><strong>Size (US)</strong></p>
+            <div class="d-flex flex-wrap mb-3">
+              <label class="size-box">
+                <input type="radio" name="size" value="6">
+                <span>6</span>
+              </label>
+              <label class="size-box">
+                <input type="radio" name="size" value="7">
+                <span>7</span>
+              </label>
+              <label class="size-box">
+                <input type="radio" name="size" value="8">
+                <span>8</span>
+              </label>
+              <label class="size-box">
+                <input type="radio" name="size" value="9">
+                <span>9</span>
+              </label>
+              <label class="size-box">
+                <input type="radio" name="size" value="10">
+                <span>10</span>
+              </label>
+              <label class="size-box">
+                <input type="radio" name="size" value="11">
+                <span>11</span>
+              </label>
+            </div>
+            <!-- Quantity -->
+            <p class="mb-2"><strong>Quantity</strong></p>
+            <div class="qty-container mb-4">
+              <button type="button" class="qty-btn" disabled>-</button>
+              <input type="text" class="qty-input" name="quantity" min="1" max="10" value="1">
+              <button type="button" class="qty-btn" disabled>+</button>
+            </div>
+            <!-- Add to Cart -->
+            <button class="button-1 w-100" type="submit">ADD TO CART</button>
+          </form>
+          <hr>
+          <!-- Delivery Info -->
+          <div class="deliver">
+            <p><strong>Standard Delivery</strong></p>
+            <p><strong>3-7 Working Days</strong></p>
+            <p><strong>Free Delivery Worldwide</strong></p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <!-- Accordion Info -->
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            DETAILS
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div class="accordion-body fs-5">
+            <p>ōkami(狼) isn’t just a sneaker, it’s a fusion of advanced performance and timeless Japanese design philosophy. <br>
+            <br>Inspired by the elegance of shibumi (the Japanese concept of understated beauty), the ōkami(狼) combines minimalist aesthetics with cutting-edge technology to create a shoe that’s as stylish as it is functional. <br>
+            <br>ōkami(狼) is more than a shoe, it's a journey that embodies harmony, precision, and the relentless pursuit of excellence. Walk the path of innovation with ōkami(狼).
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            SPECIFICATIONS
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+        <div class="accordion-body">
+            <table class="table table-striped fs-5">
+                <tr>
+                  <th class="th-bold">Feature</th>
+                  <th class="th-bold">Details</th>
+                </tr>
+                <tr>
+                  <td>Sneaker Type</td>
+                  <td>Basketball</td>
+                </tr>
+                <tr>
+                  <td>Sneaker Model</td>
+                  <td>ōkami(狼)</td>
+                </tr>
+                <tr>
+                  <td>Year</td>
+                  <td>2008</td>
+                </tr>
+                <tr>
+                  <td>Color</td>
+                  <td>Multicolor</td>
+                </tr>
+                <tr>
+                  <td>Materials</td>
+                  <td>Leather, Rubber, Cotton</td>
+                </tr>
+                <tr>
+                  <td>Unique Features</td>
+                  <td>Embossed kanji (力 for strength, 均 for balance) on the sole.</td>
+                </tr>
+                <tr>
+                  <td>SKU</td>
+                  <td>D534S</td>
+                </tr>
+            </table>
+        </div>
+      </div>
+    </div>
+
+    <!--Details, Specification, Review-->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            REVIEWS
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <!-- Review Group 1 -->
+            <div class="review-group mb-4 d-flex flex-column flex-md-row align-items-start">
+              <div class="review-meta w-25 text-center text-md-start mb-3 mb-md-0">
+                <p class="text-danger fs-4 mb-2">★★★★★</p>
+                <h5 class="fw-bold">Sky Lee</h5>
+              </div>
+              <div class="review-content w-75">
+                <h4 class="fw-bold">Perfect for Quick Moves on the Court</h4>
+                <p class="fs-5">
+                  I’ve been using the ōkami(狼) for basketball, and I’m thoroughly impressed. The lightweight design and WaveFlow Sole provide exceptional cushioning, which is perfect for those high-impact jumps and quick cuts.<br><br>
+                  The grip is phenomenal—I didn’t slip once, even on fast breaks. The snug fit around the ankle gives me extra confidence in lateral movements.<br><br>
+                  Plus, the Japanese-inspired design is a bonus—I’ve gotten so many compliments from my teammates! Definitely recommend this shoe for both performance and style.
+                </p>
+              </div>
+            </div>
+            <hr>
+            <!-- Review Group 2 -->
+            <div class="review-group mb-4 d-flex flex-column flex-md-row align-items-start">
+              <div class="review-meta w-25 text-center text-md-start mb-3 mb-md-0">
+                <p class="text-danger fs-4 mb-2">★★★★★</p>
+                <h5 class="fw-bold">Andrew Song</h5>
+              </div>
+              <div class="review-content w-75">
+                <h4 class="fw-bold">Stylish and Functional</h4>
+                <p class="fs-5">
+                  ōkami(狼) is an excellent basketball shoe for anyone who values both performance and aesthetics.<br><br>
+                  The Dynamic System really helps with responsiveness; I felt like I could change direction effortlessly. The bamboo lining kept my feet cool and dry even after hours of play.<br><br>
+                  My only minor issue is that I’d like a little more ankle support, but overall, it’s a solid choice for guards or small forwards.
+                </p>
+              </div>
+            </div>
+            <hr>
+            <!-- Review Group 3 -->
+            <div class="review-group d-flex flex-column flex-md-row align-items-start">
+              <div class="review-meta w-25 text-center text-md-start mb-3 mb-md-0">
+                <p class="text-danger fs-4 mb-2">★★★★</p>
+                <h5 class="fw-bold">Jimmy Rose</h5>
+              </div>
+              <div class="review-content w-75">
+                <h4 class="fw-bold">Game-Changer for Indoor Courts</h4>
+                <p class="fs-5">
+                  The traction on the ōkami(狼) is unmatched—I felt locked in on every pivot and drive. It’s incredibly comfortable thanks to the cushioned sole, and my feet didn’t feel fatigued even after back-to-back games.<br><br>
+                  What really sets this shoe apart is the balance of stability and flexibility; it gives just the right amount of support without restricting movement. The kanji detail on the sole is a cool touch—makes it feel like a personalized shoe. Highly recommend it for serious players!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     <!--Footer-->
+     <!--Social images from icon8 -->
+    <footer class="p-5 bg-light">
+    <div class="container text-center text-md-start">
+        <h1 class="display-4 fw-bold text-black">REACH OUT FOR <br> INQUIRIES</h1>
+
+        <div class="row py-4">
+            <!-- Phone -->
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <h3>PHONE</h3>
+                <p class="fs-5">(+65) 98765432</p>
+            </div>
+
+            <!-- Email -->
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <h3>EMAIL</h3>
+                <p class="fs-5">sneakerverse@gmail.com</p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <h3>SOCIAL</h3>
+                <a href="#"><img class="img-fluid me-2" src="Image/icons8-facebook-50.png" alt="Facebook" width="25"></a>
+                <a href="#"><img class="img-fluid" src="Image/icons8-instagram-50.png" alt="Instagram" width="25"></a>
+            </div>
+        </div>
+
+        <h1 class="display-4 fw-bold text-black">AND PARTNERSHIPS</h1>
+    </div>
+    </footer>
+<!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
