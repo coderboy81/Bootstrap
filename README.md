@@ -45,8 +45,3 @@ sneakerverse/
     ├── okami.png     # Okami sneaker image
     ├── shishi.png    # Shishi sneaker image
     └── tengu.png     # Tengu sneaker image
-
-
-
-
-
