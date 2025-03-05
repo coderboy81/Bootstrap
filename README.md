@@ -42,6 +42,7 @@ sneakerverse/
     ├── shishi.png    # Shishi sneaker image
     └── tengu.png     # Tengu sneaker image
 
+
 🔗 Live Demo: [sneakerverses.netlify.app]
 Happy coding! 🎉
 
